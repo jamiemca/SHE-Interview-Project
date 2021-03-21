@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4745409100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Test for interview",
+        "description": "",
+        "id": "interview-test;test-for-interview",
+        "after": [
+          {
+            "result": {
+              "duration": 2308695400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6235343500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user has logged into the application",
+            "match": {
+              "location": "Steps.userHasLoggedIntoApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3082316500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the air emissions module is selected",
+            "match": {
+              "location": "Steps.airEmissionsModuleIsSelected()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5279630900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "a new record is created",
+            "match": {
+              "location": "Steps.newRecordIsCreated()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6438987300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the record is deleted",
+            "match": {
+              "location": "Steps.recordIsDeleted()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3326101700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the deletion is verified and the user logs out",
+            "match": {
+              "location": "Steps.deletionIsVerifiedAndUserLogsOut()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@jm"
+          }
+        ]
+      }
+    ],
+    "name": "Interview Test",
+    "description": "",
+    "id": "interview-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/jamie/CucumberProject/featureFiles/Interview.feature"
+  }
+]

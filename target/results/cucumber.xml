@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="31.416484">
+<testcase classname="Interview Test" name="Test for interview" time="31.416484">
+<system-out><![CDATA[Given the user has logged into the application..............................passed
+And the air emissions module is selected....................................passed
+When a new record is created................................................passed
+And the record is deleted...................................................passed
+Then the deletion is verified and the user logs out.........................passed
+]]></system-out>
+</testcase>
+</testsuite>
